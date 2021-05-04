@@ -4,7 +4,7 @@ namespace fowardPiping
 //printfn "Hello %s" person
 
 //let isvalid person =
-//not(String.IsNullOrWhiteSpace Person)
+//String.IsNullOrWhiteSpace Person |> not      //basically means negating
 
 //let isAllowed person =
 //person <> eve             //<> means not equal
